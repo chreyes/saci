@@ -1,0 +1,378 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Demo Carga imagenes</title>
+
+  <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="../dist/css/sb-admin-2.css" rel="stylesheet">
+  <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+</head>
+
+<body>
+
+    <div id="wrapper">
+
+          <nav class="navbar navbar-default navbar-static-top" role="navigation" style="margin-bottom: 0">
+              <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                      <span class="sr-only">Toggle navigation</span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                      <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html">Inicio</a>
+              </div>
+
+              <ul class="nav navbar-nav">
+                     <li><a href="tables.html">Registro de Documentos</a></li>
+              </ul>
+
+              <ul class="nav navbar-top-links navbar-right">
+
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                          <i class="fa fa-tasks fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                      </a>
+                      <ul class="dropdown-menu dropdown-tasks">
+                          <li>
+                              <a href="#">
+                                  <div>
+                                      <p>
+                                          <strong>Lectura de Archivos</strong>
+                                          <span class="pull-right text-muted">40% Listo</span>
+                                      </p>
+                                      <div class="progress progress-striped active">
+                                          <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
+
+                                          </div>
+                                      </div>
+                                  </div>
+                              </a>
+                          </li>
+                          <li class="divider"></li>
+                          <li>
+                              <a href="#">
+                                  <div>
+                                      <p>
+                                          <strong>Carga de Archivos</strong>
+                                          <span class="pull-right text-muted">80% Listo</span>
+                                      </p>
+                                      <div class="progress progress-striped active">
+                                          <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
+                                          </div>
+                                      </div>
+                                  </div>
+                              </a>
+                          </li>
+                          <li class="divider"></li>
+                          <li>
+                              <a class="text-center" href="#">
+                                  <strong>Historial de trabajos</strong>
+                                  <i class="fa fa-angle-right"></i>
+                              </a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                          <i class="fa fa-bell fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                      </a>
+                      <ul class="dropdown-menu dropdown-alerts">
+                          <li>
+                              <a href="#">
+                                  <div>
+                                      <i class="fa fa-gear fa-fw"></i> Reconexion a  datos
+                                      <span class="pull-right text-muted small">12 minutes ago</span>
+                                  </div>
+                              </a>
+                          </li>
+                          <li class="divider"></li>
+                          <li>
+                              <a href="#">
+                                  <div>
+                                      <i class="fa fa-edit fa-fw"></i> Edicion de documentos
+                                      <span class="pull-right text-muted small">4 minutes ago</span>
+                                  </div>
+                              </a>
+                          </li>
+                          <li class="divider"></li>
+                          <li>
+                              <a href="#">
+                                  <div>
+                                      <i class="fa fa-upload fa-fw"></i> Carga de documentos
+                                      <span class="pull-right text-muted small">4 minutes ago</span>
+                                  </div>
+                              </a>
+                          </li>
+                          <li class="divider"></li>
+                          <li>
+                              <a href="#">
+                                  <div>
+                                      <i class="fa fa-tasks fa-fw"></i> Trabajo realizado
+                                      <span class="pull-right text-muted small">4 minutes ago</span>
+                                  </div>
+                              </a>
+                          </li>
+                          <li class="divider"></li>
+                          <li>
+                              <a href="#">
+                                  <div>
+                                      <i class="fa fa-wrench fa-fw"></i> Conexion a datos
+                                      <span class="pull-right text-muted small">4 minutes ago</span>
+                                  </div>
+                              </a>
+                          </li>
+                          <li class="divider"></li>
+                          <li>
+                              <a class="text-center" href="#">
+                                  <strong>Historial de alertas</strong>
+                                  <i class="fa fa-angle-right"></i>
+                              </a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                          <i class="fa fa-gear fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                      </a>
+                      <ul class="dropdown-menu dropdown-user">
+                          <li><a href="conexion.html"><i class="fa fa-lock fa-fw"></i> Conexión de datos</a>
+                          </li>
+                          <li><a href="#"><i class="fa fa-users fa-fw"></i> Usuarios</a>
+                          </li>
+                          <li><a href="#"><i class="fa fa-briefcase fa-fw"></i> Perfiles</a>
+                          </li>
+                          <li class="divider"></li>
+                          <li><a href="#"><i class="fa fa-gears fa-fw"></i> Parámetros</a>
+                          </li>
+                      </ul>
+                  </li>
+                  <li class="dropdown">
+                      <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                          <i class="fa fa-user fa-fw"></i>  <i class="fa fa-caret-down"></i>
+                      </a>
+                      <ul class="dropdown-menu dropdown-user">
+                          <li><a href="#"><i class="fa fa-user fa-fw"></i> Perfil de Usuario</a>
+                          </li>
+                          <li><a href="#"><i class="fa fa-gear fa-fw"></i> Configuración</a>
+                          </li>
+                          <li class="divider"></li>
+                          <li><a href="login.html"><i class="fa fa-sign-out fa-fw"></i> Cerrar Sesión</a>
+                          </li>
+                      </ul>
+                  </li>
+              </ul>
+          </nav>
+
+        <div class='container'>
+            <div class="row">
+                <div class="col-lg-12">
+                    <h1 class="page-header">Configuracion de acceso a datos</h1>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                        </div>
+                        <div class="panel-body">
+                            <div class="panel-group" id="accordion">
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseOne">Carpeta compartida</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseOne" class="panel-collapse collapse in">
+                                        <div class="panel-body">
+                                          <div class="row">
+                                              <div class="col-lg-6">
+                                                  <form role="form">
+                                                      <div class="form-group">
+                                                          <input class="form-control" placeholder="Servidor">
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <input class="form-control" placeholder="Carpeta">
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <input class="form-control" placeholder="Usuario">
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <input class="form-control" placeholder="Contraseña">
+                                                      </div>
+                                                      <button type="reset" class="btn btn-success">Comprobar conexion</button>
+
+                                                      <button type="submit" class="btn btn-default">Guardar conexion</button>
+                                                      <button type="reset" class="btn btn-default">Cancelar</button>
+                                                  </form>
+                                              </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseTwo">API</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseTwo" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                          <div class="row">
+                                              <div class="col-lg-6">
+                                                  <form role="form">
+                                                      <div class="form-group">
+                                                          <input class="form-control" placeholder="Servidor">
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <input class="form-control" placeholder="ID">
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <input class="form-control" placeholder="Llave">
+                                                      </div>
+
+                                                      <button type="reset" class="btn btn-success">Comprobar conexion</button>
+
+                                                      <button type="submit" class="btn btn-default">Guardar conexion</button>
+                                                      <button type="reset" class="btn btn-default">Cancelar</button>
+                                                  </form>
+                                              </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseThree">Habilitar base de datos</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseThree" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                          <div class="row">
+                                              <div class="col-lg-6">
+                                                  <form role="form">
+                                                      <div class="form-group">
+                                                          <label>Seleccionar Motor Base de datos</label>
+                                                          <select class="form-control">
+                                                              <option>PostgreSQL</option>
+                                                              <option>MongoDB</option>
+                                                              <option>MySql</option>
+                                                              <option>etc</option>
+                                                          </select>
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <label>Seleccionar Base de datos</label>
+                                                          <select class="form-control">
+                                                              <option>DB1</option>
+                                                              <option>DB2</option>
+                                                              <option>DB3</option>
+                                                              <option>etc</option>
+                                                          </select>
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <input class="form-control" placeholder="Usuario">
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <input class="form-control" placeholder="Constraseña">
+                                                      </div>
+                                                      <button type="reset" class="btn btn-success">Comprobar conexion</button>
+
+                                                      <button type="submit" class="btn btn-default">Guardar conexion</button>
+                                                      <button type="reset" class="btn btn-default">Cancelar</button>
+                                                  </form>
+                                              </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFour">Habilitar recepcion de correos</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseFour" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                          <div class="row">
+                                              <div class="col-lg-6">
+                                                  <form role="form">
+                                                    <div class="form-group">
+                                                        <div class="checkbox">
+                                                            <label>
+                                                                <input type="checkbox" value="">Habilitar Recepcion
+                                                            </label>
+                                                        </div>
+                                                    </div>
+                                                      <div class="form-group">
+                                                        <div class="form-group">
+                                                            <input class="form-control" placeholder="Servidor de Correos">
+                                                        </div>
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <input class="form-control" placeholder="Usuario">
+                                                      </div>
+                                                      <div class="form-group">
+                                                          <input class="form-control" placeholder="Constraseña">
+                                                      </div>
+                                                      <button type="reset" class="btn btn-success">Verificar recepcion</button>
+
+                                                      <button type="submit" class="btn btn-default">Habilitar</button>
+                                                      <button type="reset" class="btn btn-default">Cancelar</button>
+                                                  </form>
+                                              </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="panel panel-default">
+                                    <div class="panel-heading">
+                                        <h4 class="panel-title">
+                                            <a data-toggle="collapse" data-parent="#accordion" href="#collapseFive">Carga Manual</a>
+                                        </h4>
+                                    </div>
+                                    <div id="collapseFive" class="panel-collapse collapse">
+                                        <div class="panel-body">
+                                          <div class="row">
+                                              <div class="col-lg-6">
+                                                  <form role="form">
+                                                    <div>
+                                                      <span class="btn btn-success fileinput-button">
+                                                            <i class="glyphicon glyphicon-plus"></i>
+                                                            <span>Agregar archivos...</span>
+                                                        </span>
+                                                        <button type="submit" class="btn btn-primary start">
+                                                            <i class="glyphicon glyphicon-upload"></i>
+                                                            <span>Comenzar carga</span>
+                                                        </button>
+                                                        <button type="reset" class="btn btn-warning cancel">
+                                                            <i class="glyphicon glyphicon-ban-circle"></i>
+                                                            <span>Cancelar carga</span>
+                                                        </button>
+                                                      </div>
+                                              </div>
+                                          </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <script src="../bower_components/jquery/dist/jquery.min.js"></script>
+      <script src="../bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+</body>
+
+</html>
